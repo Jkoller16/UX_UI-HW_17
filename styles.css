@@ -1,0 +1,34 @@
+
+body {
+    background-color: rosybrown;
+}
+
+header {
+    display: inline;
+    vertical-align: top;
+}
+
+header ul{
+    float: right;
+}
+
+div.logo img {
+    width: 125px;
+    padding: 1%;
+    text-align: center;
+}
+
+.nav {
+    width: 50%;
+    padding: 1%;
+}
+
+#ul {
+    list-style-type: none; /* Remove bullets */
+    width: 50%;
+    margin-left: auto;
+}
+
+ul li {
+    display:inline;
+  }
