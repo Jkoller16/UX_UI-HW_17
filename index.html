@@ -2,39 +2,44 @@
 
 <html>
 <head>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Catamaran&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
 </head>
  <body>
-       <header>
-            <div class="inline-block logo">
-                <img src="images/JK Designs-logos/JK Designs-logos_white.png">
+       <header class="TopRow">
+            <div class="logo">
+                <img src="images/JK Designs-logos/JK Designs-logos_white.png" style="width:auto; height:200px">
             </div>
 
-            <nav class="inline-block">
+            <nav class="headermenu">
                 <ul>
-                    <li>About</li>
-                    <li>Skills</li>
-                    <li>Work</li>
-                    <li>Contact</li>
+                    <li><a href="https://www.figma.com/proto/y2qFU5XzkXPTxJgpmt90Vl/Homework-11-Hi-Fi?page-id=24%3A1607&node-id=39%3A1505&viewport=241%2C48%2C0.55&scaling=scale-down&starting-point-node-id=39%3A1980">UX/UI</a></li>
+                    <li><a>Contact</a></li>
                 </ul>
             </nav>
-
-        <section class="heroimg">
-            <div class="MainContent">
-                <img src="images/koller_jennifer.jpg" alt="Koller Headshot" style="width:100px;height:150px;">
-                <p>About me</p>
-                <button>Resume</button>
-            </div>
-            <footer>
-                <ul>
-                    <li>About</li>
-                    <li>Skills</li>
-                    <li>Work</li>
-                    <li>Contact</li>
-                </ul>
-            </footer>
-        </section>
         </header>
+        
+        <section class="centeredmaincontent">
+            <img src="images/JK Designs-logos/JK Designs-logos_white_balloon.png" alt="Hot Air Baloon Logo" style="width: auto; height: 150px class=center">
+            <div class="bodyitems">
+                <h1>Welcome to JK Designs!</h1>
+                <p>I am a UX/UI Designer with a background in psychology.</p>
+                
+            </div>
+            
+        </section>
+        
+        <section class="asidemaincontent">
+            <img src="images/koller_jennifer.jpg" alt="Koller Headshot" style="width:100px;height:180px;">
+            <h5>Jennifer Koller</h5>
+            <button>Resume</button>
+        </section>
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="style.js"> </script>
     </body>
 </html>
 
