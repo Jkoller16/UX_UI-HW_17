@@ -52,7 +52,7 @@ ul li {
 
   /* MAINCONTENT */
 
-.centeredmaincontent img {
+/* .centeredmaincontent img {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -64,15 +64,15 @@ ul li {
     border-style: dotted;
     border-bottom-color: mediumvioletred;
     border-top-color: mediumvioletred;
-  }
+  } */
 
-.centeredmaincontent h1 {
+/* .centeredmaincontent h1 {
     color: mediumvioletred;
     text-decoration: underline plum;
     text-align: center;
     font-family: 'Catamaran', sans-serif;   
     margin-top: 100px;
-}
+} */
   
   body{
       position: relative;
@@ -80,11 +80,12 @@ ul li {
 
 .centeredmaincontent p {
       margin: auto;
-      margin-top: 80px;
+      margin-top: 200px;
       width: 50%;
       border: 2px solid hotpink;
       padding: 10px;
       font-family: 'Catamaran', sans-serif;
+      
   }
 
   .asidemaincontent {
